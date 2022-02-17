@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GSP.API.Application</name>
+    </assembly>
+    <members>
+        <member name="M:GSP.API.Application.Controllers.Authentication.AuthenticationController.Login(GSP.API.Core.Models.Authentication.AuthenticationModel)">
+            <summary>
+            Login and Get JWT Token
+            </summary>
+            <param name="requestModel">Authentication Request</param>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.CreateNewUser(GSP.API.Core.Models.User.AddOrUpdateUserRequestModel)">
+            <summary>
+            Create a new user
+            </summary>
+            <param name="requestModel">User request model</param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.RecoverRegister(GSP.API.Core.Models.User.RecoverRegisterModel)">
+            <summary>
+            Recover register
+            </summary>
+            <param name="requestModel">Request Model</param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.RegisterUser(GSP.API.Core.Models.User.RegisterUserRequestModel)">
+            <summary>
+            Register user
+            </summary>
+            <param name="requestModel">Request Model</param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.ForgotPassword(GSP.API.Core.Models.User.ForgotPasswordModel)">
+            <summary>
+            Forgot Password
+            </summary>
+            <param name="requestModel">requestModel</param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.UpdateUser(GSP.API.Core.Models.User.AddOrUpdateUserRequestModel)">
+            <summary>
+            Update user
+            </summary>
+            <param name="requestModel">requestModel</param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.ChangePassword(GSP.API.Core.Models.User.ChangeUserPasswordModel)">
+            <summary>
+            Change Password
+            </summary>
+            <param name="requestModel">Request Model</param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Delete User
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.GetAllUser(System.String,System.String,System.String,System.String,GSP.API.Core.Models.Enum.FilterActiveEnum)">
+            <summary>
+            Get all users
+            </summary>
+            <param name="email"></param>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="phoneNumber"></param>
+            <param name="filterActive"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.GetUserById(System.Int32)">
+            <summary>
+            Get user by id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.RecoverPassword(GSP.API.Core.Models.User.RecoverPasswordModel)">
+            <summary>
+            Recover Password
+            </summary>
+            <param name="requestModel">requestModel</param>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.GetUserLog">
+            <summary>
+            Get user log
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GSP.API.Application.Controllers.User.UserController.GetUserLogById(System.Int32)">
+            <summary>
+            Get User Log By Id
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
